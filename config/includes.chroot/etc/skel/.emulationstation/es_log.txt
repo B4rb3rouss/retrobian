@@ -1,0 +1,50 @@
+lvl2: 	EmulationStation - 1.0.2.0 - built Oct 13 2013 - 04:50:31
+lvl2: 	Starting SDL...
+lvl2: 	Creating surface...
+lvl2: 	Resolution: 1280x720...
+lvl2: 	Created surface successfully!
+lvl1: 	Could not find unconfigured joystick named "Jess Tech Dual Analog Rumble Pad"! Skipping it.
+
+lvl1: 	Could not find unconfigured joystick named "2Axes 11Keys Game  Pad"! Skipping it.
+
+lvl1: 	Could not find unconfigured joystick named "Jess Tech Dual Analog Pad"! Skipping it.
+
+lvl1: 	Could not find unconfigured joystick named "2Axes 11Keys Game  Pad"! Skipping it.
+
+lvl2: 	Loaded InputConfig data for 1 devices.
+lvl2: 	Created font "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif.ttf" with size 25. textureID: 1
+lvl2: 	Created font "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif.ttf" with size 32. textureID: 2
+lvl2: 	Created font "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSerif.ttf" with size 72. textureID: 3
+lvl2: 	Loading system config file...
+lvl1: 	Error - folder with path "/home/pi/RetroPie/roms/apple2" is not a directory!
+lvl1: 	System "apple2" has no games! Ignoring it.
+lvl1: 	System "atari800" has no games! Ignoring it.
+lvl1: 	System "atari2600" has no games! Ignoring it.
+lvl1: 	System "basiliskii" has no games! Ignoring it.
+lvl1: 	System "cavestory" has no games! Ignoring it.
+lvl1: 	System "c64" has no games! Ignoring it.
+lvl1: 	System "doom" has no games! Ignoring it.
+lvl1: 	System "duke3d" has no games! Ignoring it.
+lvl1: 	System "gb" has no games! Ignoring it.
+lvl1: 	System "gba" has no games! Ignoring it.
+lvl1: 	System "gbc" has no games! Ignoring it.
+lvl1: 	System "gamegear" has no games! Ignoring it.
+lvl1: 	System "intellivision" has no games! Ignoring it.
+lvl2: 	Parsing XML file "/home/pi/RetroPie/roms/mame/gamelist.xml"...
+lvl1: 	System "fba" has no games! Ignoring it.
+lvl1: 	System "x86" has no games! Ignoring it.
+lvl1: 	System "scummvm" has no games! Ignoring it.
+lvl1: 	System "mastersystem" has no games! Ignoring it.
+lvl1: 	System "neogeo" has no games! Ignoring it.
+lvl1: 	System "pcengine" has no games! Ignoring it.
+lvl1: 	Error - folder with path "/home/pi/RetroPie/roms/psx" is not a directory!
+lvl1: 	System "psx" has no games! Ignoring it.
+lvl1: 	System "psp" has no games! Ignoring it.
+lvl1: 	System "zxspectrum" has no games! Ignoring it.
+lvl1: 	System "esconfig" has no games! Ignoring it.
+lvl2: 	Finished loading config file - created 4 systems.
+lvl2: 	Loading theme "/home/pi/.emulationstation/mame/theme.xml"...
+lvl2: 	Created font "/home/pi/.emulationstation/mame/../general_art/pixeljosh6.ttf" with size 28. textureID: 4
+lvl2: 	Created font "/home/pi/.emulationstation/mame/../general_art/pixeljosh6.ttf" with size 21. textureID: 5
+lvl2: 	Created font "/home/pi/.emulationstation/mame/../general_art/pixeljosh6.ttf" with size 108. textureID: 6
+lvl2: 	Theme loading complete.

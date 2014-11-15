@@ -1,0 +1,9 @@
+/media/DDARCADE/ROMS/neogeo/mslug3.zip
+/home/xavier/retroarch/moninstall/fb_alpha_libretro.so
+FB Alpha
+/media/DDARCADE/ROMS/gb/Super Chinese Land 1.2.3' (Japan) (SGB Enhanced).gb
+/home/xavier/retroarch/moninstall/gambatte_libretro.so
+gambatte
+/media/DDARCADE/ROMS/psx/Heart Of Darkness-PSX-PAL-FR-CD1.bin
+/home/xavier/retroarch/moninstall/pcsx_rearmed_libretro.so
+PCSX-ReARMed

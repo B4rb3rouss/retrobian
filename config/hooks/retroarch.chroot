@@ -1,0 +1,50 @@
+#!/bin/sh
+
+set -e
+
+mkdir -p retroarch
+cd retroarch
+
+if [ -d libretro-super ]; then
+    cd libretro-super
+    git pull
+else
+    git clone https://github.com/libretro/libretro-super.git
+    cd libretro-super
+fi
+sh libretro-fetch.sh
+sh libretro-build.sh
+sh libretro-install.sh
+
+cd ..
+
+if [ -d RetroArch ]; then
+    cd RetroArch
+    git pull
+else
+    git clone https://github.com/Themaister/RetroArch.git
+    cd RetroArch
+fi
+./configure 
+make
+make install
+
+cd ..
+
+# emulationstation
+if [ -d EmulationStation ]; then
+    cd EmulationStation
+    git pull
+else
+    git clone https://github.com/Aloshi/EmulationStation
+    cd EmulationStation
+fi
+git checkout unstable
+cmake .
+make
+make install
+
+
+cd ../..
+rm -rf retroarch
+

@@ -1,0 +1,19 @@
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="480" width="640" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs></defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(0,-572.3622)">
+  <rect height="480" width="640" y="572.36" x="0" fill="#000"/>
+  <text style="writing-mode:lr-tb;letter-spacing:0px;text-anchor:start;word-spacing:0px;text-align:start;" transform="scale(1.0000015,0.99999849)" font-style="normal" line-height="100%" font-stretch="normal" xml:space="preserve" font-size="19.99996948px" font-variant="normal" y="619.20685" x="190.68135" font-family="DejaVu Sans" fill="#ffffff"><tspan y="619.20685" x="190.68135" font-weight="bold">@PROJECT@ @VERSION@ (@DISTRIBUTION@)</tspan><tspan y="639.20679" x="190.68135" font-weight="bold">@DESCRIPTION@ @ARCHITECTURE@</tspan><tspan y="659.20679" x="190.68135" font-weight="bold"/><tspan y="679.20679" x="190.68135" font-weight="bold">Build: @YEAR@-@MONTH@-@DAY@ @HOUR@:@MINUTE@:@SECOND@</tspan><tspan y="699.20673" x="190.68135" font-weight="bold"/><tspan y="719.20667" x="190.68135" font-weight="normal">linux: @LINUX_VERSIONS@</tspan><tspan y="739.20667" x="190.68135" font-weight="normal">live-build: @LIVE_BUILD_VERSION@</tspan><tspan y="759.20667" x="190.68135" font-weight="normal">live-boot: @LIVE_BOOT_VERSION@</tspan><tspan y="779.2066" x="190.68135" font-weight="normal">live-config: @LIVE_CONFIG_VERSION@</tspan><tspan y="799.20654" x="190.68135" font-weight="normal">live-tools: @LIVE_TOOLS_VERSION@</tspan><tspan y="819.20654" x="190.68135" font-weight="normal"/></text>
+  <text style="letter-spacing:0px;word-spacing:0px;" font-weight="normal" xml:space="preserve" transform="translate(0,572.3622)" font-size="40px" font-style="normal" y="336.7742" x="200" font-family="Sans" line-height="125%" fill="#000000"><tspan/></text>
+  <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAIAAAD8RQT7AAAAA3NCSVQICAjb4U/gAAABTUlEQVRY he2WMU7DMBSGP1C5QQY6cAfY4AJs6SHYOQADGcrAEZBA6sARkoGRlS3dyt4hlegRkMqQ1EqcpIr9 IuNK/ib7yXZ+/fr9HAgcByfC/UVzOpWdZq9G6Zg2K0JBllIKk7o7KYenTtW0BwjUnFpIYR+O+le1 9DhSozFuZqVqiq6p02ul5aZzbIdNv9EM6EyPU/6hrxzGR0F+EQS5wv6PYveTAkQxwPcb8LvOgbPb F+szpb14XKT/frvVK2O4UuKXNxPpAdE5wFquBHzzJqjpxyY3VacpiWJgcrEB0odrVZ49f1mc7Jc3 Zv3mMb40Wv+ULY3W++XN0NyUWUnuEmCe5kAyu9LHi7lak9zfqL3DHfLLm6G5abzYfWwzgO2G/cv1 8Zljcr/88iao6ces37S7cEUtMdn7QpVNO/Ixe1On8klwg9r45U0gEBiXPwBjbprpmjn1AAAAAElF TkSuQmCC " height="133.45" width="129.58" y="640.48" x="31.984"/>
+ </g>
+</svg>

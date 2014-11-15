@@ -1,0 +1,17 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+    --bootappend-live "locales=fr_FR.UTF-8 keyboard-layouts=fr" \
+    --bootappend-install "locales=fr_FR.UTF-8" \
+    --distribution "wheezy" \
+    --archive-areas "main contrib non-free" \
+    --debian-installer "live" \
+    --iso-preparer "Thuban"\
+    --iso-publisher "Thuban"\
+    --iso-application "retrobian : turn debian in a retro-gaming console"\
+    --memtest "none"\
+    --source "false"\
+    --win32-loader "false"\
+	"${@}"
