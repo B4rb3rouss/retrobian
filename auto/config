@@ -3,7 +3,8 @@
 set -e
 
 lb config noauto \
-    --bootappend-live "locales=fr_FR.UTF-8 keyboard-layouts=fr" \
+    --bootappend-live "live locales=fr_FR.UTF-8 keyboard-layouts=fr" \
+    --distribution "wheezy" \
     --bootappend-install "locales=fr_FR.UTF-8" \
     --distribution "wheezy" \
     --archive-areas "main contrib non-free" \
@@ -12,6 +13,8 @@ lb config noauto \
     --iso-publisher "Thuban"\
     --iso-application "retrobian : turn debian in a retro-gaming console"\
     --memtest "none"\
-    --source "false"\
     --win32-loader "false"\
+    --parent-mirror-bootstrap "http://ftp.fr.debian.org/debian/" \
+    --mirror-bootstrap "http://ftp.fr.debian.org/debian/" \
+    --mirror-binary "http://ftp.fr.debian.org/debian/"  \
 	"${@}"
