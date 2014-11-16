@@ -41,6 +41,15 @@ Dans le répertoire des sources, lancez :
 
 Cela créera le fichier binary.hybrid.iso à utiliser ensuite.
 
+## Important
+Retrobian va chercher vos roms dans le dossier ~/roms. Il suppose que
+ces roms sont classées par noms de console, par exemple ~/roms/gb,
+~/roms/snes, ~/roms/megadrive...
+Cela est prévu pour coller avec la configuration d'emulationstation qui
+peut être modifiée dans le fichier ~/.emulationstation/es_systems.cfg.
+Un script est lancé au démarrage pour vous aider à monter un éventuel
+disque/clé usb contenant les roms et faire les liens appropriés.
+
 ## FAQ
 
 - Pourquoi recontruire retrobian? Pour pouvoir l'installer sur n'importe
@@ -99,6 +108,13 @@ It will create binary.hybrid.iso to burn then.
 Then, you have an iso to burn or copy on a usb drive. So, you can test
 the distro, but you can also install the system if you choose the
 installer instead of the live system.
+
+## Important
+retrobian is configured to look for your roms in ~/roms/CONSOLE_NAME
+where CONSOLE_NAME can be snes, nes, psx, gb... CONSOLE_NAME is a
+directory containing roms.
+These path are configured for emulationstation, that you can change in
+~/.emulationstation/es_systems.cfg.
 
 ## FAQ
 
