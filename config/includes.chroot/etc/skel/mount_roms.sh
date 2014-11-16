@@ -9,11 +9,14 @@ ROMDIR=""
 	echo "* I detect some devices"
 	/sbin/blkid
 	echo
-	echo "-> Enter which device contains your roms [ex : /dev/sdb2]"
+	echo "-> Enter which device contains your roms [ex : /dev/sdb2] [q to exit]"
 
 	while [ -z "$ANSWER" ]; do
         read ANSWER
     done
+    if [ "$ANSWER" = "q" ];then
+        exit 0
+    fi
 
     if [ -e $ANSWER ]; then
         echo "* Create mount point"
