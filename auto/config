@@ -3,7 +3,7 @@
 set -e
 
 lb config noauto \
-    --bootappend-live "live locales=fr_FR.UTF-8 keyboard-layouts=fr" \
+    --bootappend-live "boot=live locales=fr_FR.UTF-8 keyboard-layouts=fr" \
     --distribution "wheezy" \
     --bootappend-install "locales=fr_FR.UTF-8" \
     --distribution "wheezy" \
