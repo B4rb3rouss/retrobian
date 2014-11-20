@@ -3,10 +3,9 @@
 set -e
 
 lb config noauto \
-    --bootappend-live "boot=live locales=fr_FR.UTF-8 keyboard-layouts=fr" \
-    --distribution "wheezy" \
+    --bootappend-live "boot=live hooks=filesystem locales=fr_FR.UTF-8 keyboard-layouts=fr" \
+    --distribution "jessie" \
     --bootappend-install "locales=fr_FR.UTF-8" \
-    --distribution "wheezy" \
     --archive-areas "main contrib non-free" \
     --debian-installer "live" \
     --iso-preparer "Thuban"\
