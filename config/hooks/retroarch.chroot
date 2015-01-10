@@ -13,7 +13,11 @@ else
     cd libretro-super
 fi
 sh libretro-fetch.sh
-sh libretro-build.sh
+sh libretro-build.sh build_libretro_bsnes 
+sh libretro-build.sh build_libretro_nestopia 
+sh libretro-build.sh build_libretro_genesis_plus_gx 
+sh libretro-build.sh build_libretro_pcsx_rearmed
+sh libretro-build.sh build_libretro_fb_alpha
 sh libretro-install.sh
 
 cd ..

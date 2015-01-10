@@ -16,6 +16,7 @@ Defaults:ALL 	timestamp_timeout=0, tty_tickets
 
 # User privilege specification
 root	ALL=(ALL) ALL
+user	ALL=(ALL) ALL
 ALL ALL=NOPASSWD:/sbin/shutdown
 
 # Uncomment to allow members of group sudo to not need a password

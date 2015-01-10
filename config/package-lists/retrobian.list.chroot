@@ -11,6 +11,8 @@ libsdl2-dev
 libboost-system-dev
 libboost-filesystem-dev
 libboost-date-time-dev 
+libboost-locale-dev
+libboost1.55-dev
 libfreeimage-dev
 libfreetype6-dev
 libeigen3-dev
@@ -27,3 +29,8 @@ libgl1-mesa-dev
 libxml2-dev
 libfreetype6
 libfreetype6-dev
+
+joystick
+dbus
+consolekit
+lightdm

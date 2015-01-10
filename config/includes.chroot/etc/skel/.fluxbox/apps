@@ -1,0 +1,19 @@
+[app] (name=fbrun)
+  [Position]	(WINCENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (Title=mutt)
+  [Workspace]{3}
+  [Layer]{10}
+  [Deco]{NONE}
+  [Maximized]{yes}
+[end]
+
+[app] (Title=urxvt-bg)
+    [Layer]{12}
+    [Deco]{NONE}
+    [Dimensions] {45% 30%} 
+    [Hidden]{yes}
+    [Sticky]{yes}
+[end]
+

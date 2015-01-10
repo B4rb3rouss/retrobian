@@ -1,0 +1,11 @@
+! The following line will prevent styles from setting the background.
+background: none
+#*font:							DejaVu Sans -9
+#menu.frame.font:                DejaVu Sans Condensed -9
+#menu.hilite.font: DejaVu Sans Condensed -9
+#toolbar.clock.font:                  DejaVu Sans Condensed -9
+#toolbar.workspace.font: DejaVu Sans -9
+#window.font:                    DejaVu Sans Condensed -9
+#toolbar.iconbar.focused.font: DroidSans-9
+#toolbar.iconbar.unfocused.font: DroidSans-9
+toolbar.height:						20
