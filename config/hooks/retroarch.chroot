@@ -26,7 +26,7 @@ if [ -d RetroArch ]; then
     cd RetroArch
     git pull
 else
-    git clone https://github.com/Themaister/RetroArch.git
+    git clone https://github.com/libretro/RetroArch.git
     cd RetroArch
 fi
 ./configure 
