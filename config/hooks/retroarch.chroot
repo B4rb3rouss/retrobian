@@ -12,13 +12,13 @@ else
     git clone https://github.com/libretro/libretro-super.git
     cd libretro-super
 fi
-sh libretro-fetch.sh
-sh libretro-build.sh build_libretro_bsnes 
-sh libretro-build.sh build_libretro_nestopia 
-sh libretro-build.sh build_libretro_genesis_plus_gx 
-sh libretro-build.sh build_libretro_pcsx_rearmed
-sh libretro-build.sh build_libretro_fb_alpha
-sh libretro-install.sh
+bash libretro-fetch.sh
+bash libretro-build.sh build_libretro_bsnes 
+bash libretro-build.sh build_libretro_nestopia 
+bash libretro-build.sh build_libretro_genesis_plus_gx 
+bash libretro-build.sh build_libretro_pcsx_rearmed
+bash libretro-build.sh build_libretro_fb_alpha
+bash libretro-install.sh
 
 cd ..
 
